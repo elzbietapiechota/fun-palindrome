@@ -1,3 +1,5 @@
 def check_palindrome(word):
-    pass
-print(check_palindrome("kajak"))
+
+    return word == word[::-1]
+
+print(check_palindrome("potop"))
