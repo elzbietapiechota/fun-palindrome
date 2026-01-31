@@ -1,5 +1,5 @@
 def check_palindrome(word):
 
-    return word == word[::-1]
+    return word.lower() == word.lower()[::-1]
 
-print(check_palindrome("potop"))
+print(check_palindrome("Potop"))
